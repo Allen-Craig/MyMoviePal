@@ -1,2 +1,0 @@
-# MyMoviePal
-Movie tracking app 
