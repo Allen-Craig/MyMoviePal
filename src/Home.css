@@ -1,0 +1,14 @@
+body {
+  background-color: cornsilk;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.submit {
+  padding: auto;
+  margin-left: auto;
+  text-align: center;
+
+  size: 50px;
+}

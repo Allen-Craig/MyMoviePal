@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./Home.css";
 export function Home() {
   const navigate = useNavigate();
   return (
@@ -9,13 +10,29 @@ export function Home() {
         MyMoviePal is a movie app that lets you select, rate, and log all of
         your favorite movies!
       </p>
-      <form>
+      <form class="form">
         {" "}
-        <label for="sign-in-user-name">User Name</label>
-        <input type="text" id="sign-in-user-name" name="sign-in-user-name" />
-        <label for="sign-in-password">Password</label>
-        <input type="password" id="sign-in-password" name="sign-in-password" />
-        <button>Submit</button>
+        <div class="container">
+          <label for="sign-in-user-name">
+            <b>User Name</b>
+          </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            id="sign-in-user-name"
+            name="sign-in-user-name"
+          />
+          <label for="sign-in-password">
+            <b>Password</b>
+          </label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            id="sign-in-password"
+            name="sign-in-password"
+          />
+          <button class="submit">Submit</button>
+        </div>
       </form>
       <ul>
         <li>Enjoy viewing lists of every movie you have watched!</li>

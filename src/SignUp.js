@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import "./SignUp.css";
 export function SignUp() {
   const navigate = useNavigate();
   return (
