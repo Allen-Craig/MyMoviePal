@@ -1,15 +1,17 @@
 import { useNavigate } from "react-router-dom";
-import "./Home.css";
+import "./index.css"; //Will seperate CSS files be needed?
 export function Home() {
   const navigate = useNavigate();
   return (
     <div>
       {" "}
-      <h1>MyMoviePal</h1>
-      <p>
-        MyMoviePal is a movie app that lets you select, rate, and log all of
-        your favorite movies!
-      </p>
+      <div className="head">
+        <h1>MyMoviePal</h1>
+        <p>
+          MyMoviePal is a movie app that lets you select, rate, and log all of
+          your favorite movies!
+        </p>
+      </div>
       <form class="form">
         {" "}
         <div class="container">
@@ -31,7 +33,9 @@ export function Home() {
             id="sign-in-password"
             name="sign-in-password"
           />
-          <button class="submit">Submit</button>
+          <button class="submit" onClick={() => navigate("/mymovies")}>
+            Submit
+          </button>
         </div>
       </form>
       <ul>
@@ -40,7 +44,9 @@ export function Home() {
         <li>Access to millions of titles from IMDB!</li>
         <li>Compile a list and organize it by a personal rating system!</li>
       </ul>
-      <button onClick={() => navigate("/sign-up")}>Sign Up Here!</button>
+      <button className="signUp" onClick={() => navigate("/sign-up")}>
+        Sign Up Here!
+      </button>
     </div>
   );
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "Title": "Monty Python and the Holy Grail",
+    "Year": "1975",
+    "Director": "TerryGilliam : Terry Jones",
+    "About": "King Arthur and his Knights of the round table embark on a surreal, low-budget search for the Holy Grail.",
+    "Rating": "8.2/10"
+  },
+  {
+    "id": 2,
+    "Title": "The Shawshank Redemption",
+    "Year": "1994",
+    "Director": "Frank Darabont",
+    "About": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency..",
+    "Rating": "9.3/10"
+  },
+  {
+    "id": 3,
+    "Title": "Inception",
+    "Year": "2010",
+    "Director": "Christopher Nolan",
+    "About": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+    "Rating": "8.8/10"
+  },
+  {
+    "id": 4,
+    "Title": "Schindler's List",
+    "Year": "1993",
+    "Director": "Steven Spielberg",
+    "About": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "Rating": "9.0/10"
+  },
+  {
+    "id": 5,
+    "Title": "The Departed",
+    "Year": "2006",
+    "Director": "Martin Scorsese",
+    "About": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+    "Rating": "8.5/10"
+  }
+]
