@@ -98,11 +98,13 @@ export function MyMovies() {
               placeholder="Enter your Rating for this movie..."
               onChange={handleAddFormChange}
             />
-            <button type="submit">add</button>
+            <button type="submit">
+              <b>add</b>
+            </button>
           </form>
 
           <button className="home-button" onClick={() => navigate("/")}>
-            Back to Home Page
+            <b>Back to Home Page</b>
           </button>
         </div>
       </div>

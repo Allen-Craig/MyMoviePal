@@ -12,7 +12,8 @@ export function Home() {
           your favorite movies!
         </p>
       </div>
-      <form class="form">
+      <div></div>
+      <form>
         {" "}
         <div class="container">
           <label for="sign-in-user-name">
