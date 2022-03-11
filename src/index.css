@@ -1,28 +1,17 @@
-body {
-  background-color: rgb(219, 199, 82);
-  /* background-image: url("https://i.imgur.com/prxM7VG.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-  width: 700px;*/
-
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 65px;
-  font-style: oblique;
-}
 .head {
   text-align: center;
-}
-.container {
-  height: 500px;
+  height: 200px;
   position: relative;
+}
+
+.container {
+  text-shadow: 0.5px 0.5px #bd8c8c;
+  background-color: #070707;
+  height: 500px;
   border: 3px solid;
+  text-align: center;
+  align-items: center;
+  content: center;
 }
 
 .vertical-center {
@@ -41,35 +30,8 @@ h1 {
   padding: 1rem;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
-  background-color: rgb(168, 210, 235);
-  border: 2px solid #444242;
-  text-align: left;
-  padding: 8px;
-  font-size: 14px;
-}
-
-/*form {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  display: flex;
-  gap: 5px;
-}*/
-
-form td:last-child {
-  display: flex;
-  justify-content: space-evenly;
-}
-form * {
-  font-size: 12px;
+.foot {
+  text-align: center;
+  align-items: center;
+  content: center;
 }

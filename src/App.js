@@ -3,6 +3,7 @@ import { Home } from "./Home";
 import { SignUp } from "./SignUp";
 import { MyMovies } from "./MyMovies";
 import * as React from "react";
+import "./App.css";
 function App() {
   return (
     <Routes>

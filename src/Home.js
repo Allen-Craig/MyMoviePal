@@ -39,15 +39,18 @@ export function Home() {
           </button>
         </div>
       </form>
-      <ul>
-        <li>Enjoy viewing lists of every movie you have watched!</li>
-        <li>Rate your favorite movie titles!</li>
-        <li>Access to millions of titles from IMDB!</li>
-        <li>Compile a list and organize it by a personal rating system!</li>
-      </ul>
-      <button className="signUp" onClick={() => navigate("/sign-up")}>
-        Sign Up Here!
-      </button>
+      <div class="foot">
+        <ul>
+          <li>Enjoy viewing lists of every movie you have watched!</li>
+          <li>Rate your favorite movie titles!</li>
+          <li>Access to millions of titles from IMDB!</li>
+          <li>Compile a list and organize it by a personal rating system!</li>
+        </ul>
+
+        <button className="signUp" onClick={() => navigate("/sign-up")}>
+          <b>Sign Up Here!</b>
+        </button>
+      </div>
     </div>
   );
 }
