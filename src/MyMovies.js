@@ -1,11 +1,12 @@
 import { useNavigate } from "react-router-dom";
 import React, { useState } from "react";
-import "./index.css"; //Will seperate CSS files be needed?
+import "./index.css";
 import data from "./input-data.json";
 
 export function MyMovies() {
   const navigate = useNavigate();
-
+  const [title, setTitle] = useState("");
+  const [results, setResults] = useState(null);
   const [movie, setmovie] = useState(data);
   const [addFormData, setAddFormData] = useState({
     Title: "",
@@ -14,7 +15,18 @@ export function MyMovies() {
     About: "",
     Rating: "",
   });
-
+  const handleTitleSearch = (title) => {
+    console.log("submit clicked: ", title);
+    fetch(
+      "http://www.omdbapi.com/?apikey=4f7bb29&t=" + encodeURIComponent(title)
+    )
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(JSON.stringify(data));
+        console.log(data);
+        setResults(data);
+      });
+  };
   const handleAddFormChange = (event) => {
     event.preventDefault();
 
@@ -102,7 +114,32 @@ export function MyMovies() {
               <b>add</b>
             </button>
           </form>
-
+          <div>
+            <label for="title-search">
+              <b>Title Search</b>
+            </label>
+            <input
+              value={title}
+              onChange={(event) => setTitle(event.target.value)}
+              type="text"
+              placeholder="Title Search"
+              id="title-search"
+              name="title-search"
+            />
+            <button onClick={() => handleTitleSearch(title)}>
+              <b>Submit</b>
+            </button>
+            <div>
+              {results ? (
+                <div>
+                  <p>{results.Title}</p>
+                  <p>{results.Year}</p>
+                  <p>{results.Plot}</p>
+                  <p>{results.imdbRating}</p>
+                </div>
+              ) : null}
+            </div>
+          </div>
           <button className="home-button" onClick={() => navigate("/")}>
             <b>Back to Home Page</b>
           </button>
