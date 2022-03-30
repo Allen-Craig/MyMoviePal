@@ -114,7 +114,7 @@ export function MyMovies() {
               <b>add</b>
             </button>
           </form>
-          <div>
+          <div class="foot2">
             <label for="title-search">
               <b>Title Search</b>
             </label>
@@ -127,7 +127,7 @@ export function MyMovies() {
               name="title-search"
             />
             <button onClick={() => handleTitleSearch(title)}>
-              <b>Submit</b>
+              <b>Search</b>
             </button>
             <div>
               {results ? (
@@ -140,9 +140,11 @@ export function MyMovies() {
               ) : null}
             </div>
           </div>
-          <button className="home-button" onClick={() => navigate("/")}>
-            <b>Back to Home Page</b>
-          </button>
+          <div class="button1">
+            <button className="home-button" onClick={() => navigate("/")}>
+              <b>Back to Home Page</b>
+            </button>
+          </div>
         </div>
       </div>
     </div>
