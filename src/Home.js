@@ -39,14 +39,15 @@ export function Home() {
           </button>
         </div>
       </form>
-      <div class="foot">
+      <div class="foot1">
         <ul>
           <li>Enjoy viewing lists of every movie you have watched!</li>
           <li>Rate your favorite movie titles!</li>
-          <li>Access to millions of titles from IMDB!</li>
+          <li>Access to millions of titles from OMDB!</li>
           <li>Compile a list and organize it by a personal rating system!</li>
         </ul>
-
+      </div>
+      <div class="button1">
         <button className="signUp" onClick={() => navigate("/sign-up")}>
           <b>Sign Up Here!</b>
         </button>
