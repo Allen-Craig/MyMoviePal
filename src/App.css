@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(219, 199, 82);
+  background-color: rgba(219, 199, 82, 0.9);
   /* background-image: url("https://i.imgur.com/prxM7VG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +11,7 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 p {
+  text-shadow: 1px 1px #bd8c8c;
   font-size: larger;
 }
 h1 {
@@ -21,8 +22,7 @@ h1 {
 }
 
 h3 {
-  text-shadow: 2px 2px #702a2a;
-  color: white;
+  text-shadow: 1px 1px #bd8c8c;
 }
 
 form * {
@@ -57,4 +57,10 @@ td {
 table {
   border-collapse: collapse;
   width: 100%;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  justify-content: center;
 }
