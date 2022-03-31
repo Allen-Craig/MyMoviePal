@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(219, 199, 82, 0.9);
+  background-color: rgba(110, 124, 118, 0.9);
   /* background-image: url("https://i.imgur.com/prxM7VG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +47,7 @@ form td:last-child {
 
 th,
 td {
-  background-color: rgb(168, 210, 235);
+  background-color: rgb(157, 211, 243);
   border: 2px solid #444242;
   text-align: left;
   padding: 8px;
