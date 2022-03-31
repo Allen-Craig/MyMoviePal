@@ -73,47 +73,49 @@ export function MyMovies() {
               ))}
             </tbody>
           </table>
-          <h3>Add a Movie Title</h3>
-          <form>
-            <input
-              type="text"
-              name="Title"
-              required="required"
-              placeholder="Enter a Movie Title..."
-              onChange={handleAddFormChange}
-            />
-            <input
-              type="text"
-              name="Year"
-              required="required"
-              placeholder="Enter the movie Year..."
-              onChange={handleAddFormChange}
-            />
-            <input
-              type="text"
-              name="Director"
-              required="required"
-              placeholder="Enter the Directors name..."
-              onChange={handleAddFormChange}
-            />
-            <input
-              type="text"
-              name="About"
-              required="required"
-              placeholder="Enter the Movie description..."
-              onChange={handleAddFormChange}
-            />
-            <input
-              type="text"
-              name="Rating"
-              required="required"
-              placeholder="Enter your Rating for this movie..."
-              onChange={handleAddFormChange}
-            />
-            <button type="submit">
-              <b>add</b>
-            </button>
-          </form>
+          <div class="add">
+            <h3>Add a Movie Title</h3>
+            <form>
+              <input
+                type="text"
+                name="Title"
+                required="required"
+                placeholder="Enter a Movie Title..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="text"
+                name="Year"
+                required="required"
+                placeholder="Enter the movie Year..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="text"
+                name="Director"
+                required="required"
+                placeholder="Enter the Directors name..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="text"
+                name="About"
+                required="required"
+                placeholder="Enter the Movie description..."
+                onChange={handleAddFormChange}
+              />
+              <input
+                type="text"
+                name="Rating"
+                required="required"
+                placeholder="Enter your Rating for this movie..."
+                onChange={handleAddFormChange}
+              />
+              <button type="submit">
+                <b>add</b>
+              </button>
+            </form>
+          </div>
           <div class="foot2">
             <label for="title-search">
               <b>Title Search</b>
