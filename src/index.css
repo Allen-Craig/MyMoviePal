@@ -6,12 +6,13 @@
 
 .container {
   text-shadow: 0.5px 0.5px #bd8c8c;
+  background-image: url("https://i.imgur.com/LFsu34u.jpeg");
+  background-size: 2000px 800px;
+  background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.7);
   height: 300px;
   border: 3px solid;
   text-align: center;
-  align-items: center;
-  content: center;
 }
 
 .vertical-center {
@@ -52,4 +53,15 @@
   text-align: center;
   align-items: center;
   content: center;
+}
+
+.button2 {
+  padding: 150px;
+  text-align: center;
+  align-items: center;
+  content: center;
+}
+
+.add {
+  padding-bottom: 30px;
 }
