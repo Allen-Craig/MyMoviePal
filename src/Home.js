@@ -12,7 +12,6 @@ export function Home() {
           your favorite movies!
         </p>
       </div>
-      <div></div>
       <form>
         {" "}
         <div class="container">
