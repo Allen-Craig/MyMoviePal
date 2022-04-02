@@ -38,5 +38,13 @@
     "Director": "Martin Scorsese",
     "About": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
     "Rating": "8.5/10"
+  },
+  {
+    "id": 6,
+    "Title": "Alien",
+    "Year": "1979",
+    "Director": "Ridley Scott",
+    "About": "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
+    "Rating": "8.5/10"
   }
 ]

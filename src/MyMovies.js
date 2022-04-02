@@ -51,28 +51,30 @@ export function MyMovies() {
       </div>
       <div class="container">
         <div class="vertical-center">
-          <table>
-            <thead>
-              <tr>
-                <th>Title</th>
-                <th>Year</th>
-                <th>Director</th>
-                <th>About this movie...</th>
-                <th>My Rating</th>
-              </tr>
-            </thead>
-            <tbody>
-              {movie.map((info) => (
+          <div style={{ overflowY: "scroll" }}>
+            <table>
+              <thead>
                 <tr>
-                  <th>{info.Title}</th>
-                  <th>{info.Year}</th>
-                  <th>{info.Director}</th>
-                  <th>{info.About}</th>
-                  <th>{info.Rating}</th>
+                  <th>Title</th>
+                  <th>Year</th>
+                  <th>Director</th>
+                  <th>About this movie...</th>
+                  <th>My Rating</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {movie.map((info) => (
+                  <tr>
+                    <th>{info.Title}</th>
+                    <th>{info.Year}</th>
+                    <th>{info.Director}</th>
+                    <th>{info.About}</th>
+                    <th>{info.Rating}</th>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
           <div class="add">
             <h3>Add a Movie Title</h3>
             <form>
