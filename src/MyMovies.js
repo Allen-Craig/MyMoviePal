@@ -25,7 +25,8 @@ export function MyMovies() {
         console.log(JSON.stringify(data));
         console.log(data);
         setResults(data);
-      });
+      })
+      .catch((err) => console.error(err));
   };
   const handleAddFormChange = (event) => {
     event.preventDefault();
