@@ -12,7 +12,7 @@ export function SignUp() {
       <div className="head">
         <h1>MyMoviePal</h1>
         <p>
-          Sign up by entering in your User Name, Email, and creating a Password
+          Sign up by entering your Email and creating a Password
           to see all of your favorite movies!
         </p>
       </div>
