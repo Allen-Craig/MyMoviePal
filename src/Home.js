@@ -1,7 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import "./index.css"; //Will seperate CSS files be needed?
+import "./index.css";
+
+
 export function Home() {
   const navigate = useNavigate();
+
+
   return (
     <div>
       {" "}

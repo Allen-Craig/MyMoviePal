@@ -28,6 +28,7 @@ export function MyMovies() {
       })
       .catch((err) => console.error(err));
   };
+  
   const handleAddFormChange = (event) => {
     event.preventDefault();
 
@@ -114,6 +115,13 @@ export function MyMovies() {
                 placeholder="Enter your Rating for this movie..."
                 onChange={handleAddFormChange}
               />
+              <input
+                type="text"
+                name="Rating"
+                required="required"
+                placeholder="Enter your Rating for this movie..."
+                onChange={handleAddFormChange}
+              />
               <button type="submit">
                 <b>add</b>
               </button>
@@ -154,4 +162,4 @@ export function MyMovies() {
       </div>
     </div>
   );
-}
+};

@@ -1,7 +1,11 @@
 import { useNavigate } from "react-router-dom";
 import "./index";
+
+
 export function SignUp() {
   const navigate = useNavigate();
+
+
   return (
     <div>
       {" "}
@@ -52,4 +56,4 @@ export function SignUp() {
       </div>
     </div>
   );
-}
+};
